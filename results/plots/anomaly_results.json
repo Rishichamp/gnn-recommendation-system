@@ -1,0 +1,202 @@
+{
+  "threshold": 0.5476993069138594,
+  "n_total_users": 943,
+  "n_flagged": 48,
+  "flag_rate_pct": 5.090137857900318,
+  "score_mean": 0.3711340608503049,
+  "score_std": 0.13033868159253348,
+  "flagged_users": [
+    {
+      "user_id": 0,
+      "anomaly_score": 0.800072
+    },
+    {
+      "user_id": 68,
+      "anomaly_score": 0.564885
+    },
+    {
+      "user_id": 93,
+      "anomaly_score": 0.599132
+    },
+    {
+      "user_id": 109,
+      "anomaly_score": 0.556514
+    },
+    {
+      "user_id": 177,
+      "anomaly_score": 0.587729
+    },
+    {
+      "user_id": 202,
+      "anomaly_score": 0.567269
+    },
+    {
+      "user_id": 207,
+      "anomaly_score": 0.562449
+    },
+    {
+      "user_id": 213,
+      "anomaly_score": 0.572509
+    },
+    {
+      "user_id": 214,
+      "anomaly_score": 0.581244
+    },
+    {
+      "user_id": 242,
+      "anomaly_score": 0.561158
+    },
+    {
+      "user_id": 243,
+      "anomaly_score": 0.559121
+    },
+    {
+      "user_id": 244,
+      "anomaly_score": 0.57258
+    },
+    {
+      "user_id": 255,
+      "anomaly_score": 0.700832
+    },
+    {
+      "user_id": 265,
+      "anomaly_score": 0.561841
+    },
+    {
+      "user_id": 289,
+      "anomaly_score": 0.553938
+    },
+    {
+      "user_id": 329,
+      "anomaly_score": 0.559304
+    },
+    {
+      "user_id": 336,
+      "anomaly_score": 0.55006
+    },
+    {
+      "user_id": 340,
+      "anomaly_score": 0.573468
+    },
+    {
+      "user_id": 344,
+      "anomaly_score": 0.628962
+    },
+    {
+      "user_id": 356,
+      "anomaly_score": 0.552369
+    },
+    {
+      "user_id": 416,
+      "anomaly_score": 0.690964
+    },
+    {
+      "user_id": 451,
+      "anomaly_score": 0.550746
+    },
+    {
+      "user_id": 489,
+      "anomaly_score": 0.549351
+    },
+    {
+      "user_id": 498,
+      "anomaly_score": 0.558341
+    },
+    {
+      "user_id": 507,
+      "anomaly_score": 0.581507
+    },
+    {
+      "user_id": 514,
+      "anomaly_score": 0.557123
+    },
+    {
+      "user_id": 518,
+      "anomaly_score": 0.586045
+    },
+    {
+      "user_id": 542,
+      "anomaly_score": 0.606107
+    },
+    {
+      "user_id": 548,
+      "anomaly_score": 0.595059
+    },
+    {
+      "user_id": 549,
+      "anomaly_score": 0.572044
+    },
+    {
+      "user_id": 564,
+      "anomaly_score": 0.549659
+    },
+    {
+      "user_id": 595,
+      "anomaly_score": 0.580128
+    },
+    {
+      "user_id": 600,
+      "anomaly_score": 0.568549
+    },
+    {
+      "user_id": 629,
+      "anomaly_score": 0.691965
+    },
+    {
+      "user_id": 651,
+      "anomaly_score": 0.554945
+    },
+    {
+      "user_id": 660,
+      "anomaly_score": 0.569029
+    },
+    {
+      "user_id": 676,
+      "anomaly_score": 0.556402
+    },
+    {
+      "user_id": 696,
+      "anomaly_score": 0.560541
+    },
+    {
+      "user_id": 738,
+      "anomaly_score": 0.558263
+    },
+    {
+      "user_id": 765,
+      "anomaly_score": 0.574583
+    },
+    {
+      "user_id": 817,
+      "anomaly_score": 0.555771
+    },
+    {
+      "user_id": 820,
+      "anomaly_score": 0.549466
+    },
+    {
+      "user_id": 838,
+      "anomaly_score": 0.6974
+    },
+    {
+      "user_id": 849,
+      "anomaly_score": 0.572511
+    },
+    {
+      "user_id": 858,
+      "anomaly_score": 0.547739
+    },
+    {
+      "user_id": 906,
+      "anomaly_score": 0.550363
+    },
+    {
+      "user_id": 909,
+      "anomaly_score": 0.615218
+    },
+    {
+      "user_id": 929,
+      "anomaly_score": 0.578265
+    }
+  ]
+}
