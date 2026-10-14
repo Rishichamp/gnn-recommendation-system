@@ -304,7 +304,7 @@ class LightGCN(nn.Module):
         Example:
             model = LightGCN.load("results/best_model.pt")
         """
-        checkpoint = torch.load(path, map_location=device)
+        checkpoint = torch.load(path, map_location=device, weights_only=True)
         model = cls(
             num_users     = checkpoint["num_users"],
             num_items     = checkpoint["num_items"],
