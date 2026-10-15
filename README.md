@@ -242,6 +242,15 @@ python src/anomaly_detection.py
 
 ---
 
+### Tests
+
+```bash
+pip install pytest
+python -m pytest -q tests
+```
+Unit tests cover the ranking metrics, the leave-one-out split and negative
+sampling; they need no dataset download.
+
 ## Results
 
 All metrics evaluated on the held-out test set using the **leave-one-out** protocol: each user's last interaction is reserved for testing, second-to-last for validation, all earlier interactions for training.

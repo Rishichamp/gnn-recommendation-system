@@ -55,6 +55,12 @@ def download_movielens(force=False):
     print("[data_loader] Download complete. Extracting ...")
 
     with zipfile.ZipFile(zip_path, "r") as zf:
+        # Refuse entries that would land outside DATA_DIR ("zip slip").
+        root = os.path.realpath(DATA_DIR)
+        for name in zf.namelist():
+            target = os.path.realpath(os.path.join(DATA_DIR, name))
+            if os.path.commonpath([root, target]) != root:
+                raise RuntimeError(f"Unsafe path in dataset archive: {name}")
         zf.extractall(DATA_DIR)
 
     os.remove(zip_path)
