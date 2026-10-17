@@ -188,6 +188,7 @@ python main.py
 ```
 
 This will:
+
 1. Download MovieLens 100K automatically
 2. Build the bipartite user-item graph
 3. Train LightGCN with early stopping
